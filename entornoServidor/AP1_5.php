@@ -95,3 +95,5 @@
         echo "estado: ". $row['estado']."<br>";
         echo "----------------------<br><br>";
     }
+
+    $mysqli->close();
